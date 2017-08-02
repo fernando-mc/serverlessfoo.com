@@ -24,6 +24,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88768773-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body>
@@ -111,7 +122,7 @@
                   <div class="panel-heading">Status: Under Development</div>
                 </div>
                 <p>The project will return the state sales tax based on one of two potential inputs. Either the state abbreviation as a lookup ID or geographical coordinates. The state abbreviations will map directly to entries in the lookup table. The geocoordinates will be processed by a Lambda function that takes advantage of the Google <a href="https://developers.google.com/maps/documentation/geocoding/start#reverse-example">geocoding API</a></p>
-                <a class="btn btn-primary" href="./projects/sales-tax-api/index.html">View API Demo<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="./projects/state-sales-tax-api/index.html">View API Demo<span class="glyphicon glyphicon-chevron-right"></span></a>
                 <a class="btn btn-secondary" href="https://github.com/fernando-mc/us-state-sales-tax-api" target="_blank">View API Code<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
